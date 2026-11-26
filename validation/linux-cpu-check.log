@@ -1,0 +1,5 @@
+Working directory: <temporary-tree>/research/TWM_ORION_F22_F23
+Command: ['<python-env>/bin/python', 'code/reproduce.py', '--scope', 'smoke']
+{
+  "smoke": "PASS: load, shape, finite, support permutation invariant, no teacher forward"
+}

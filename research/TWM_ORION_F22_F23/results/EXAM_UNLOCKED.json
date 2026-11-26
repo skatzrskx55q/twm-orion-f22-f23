@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-11-05T09:51:52.436394+00:00",
+  "protocol_sha256": "5776e338b67a77c60e075f416c0a7a385ab010ca1dca2ccbd285d747645381e0",
+  "source_sha256": "09f3e6957fa0661e3786f75e272c139818cf6fa6108d3333e5b4422e2ec16ffa",
+  "checkpoints": {
+    "oddlink_1701.pt": "cfeefd028e14d854c131f5b556b44255f018bb1f5d45903816d32987c47836fe",
+    "oddlink_1703.pt": "b30e801bf2ac3d849a1e989c17da63ac623c902b15ef7073ebb31d640486136f"
+  },
+  "dev_best": {
+    "1701": 1800,
+    "1703": 1600
+  },
+  "rules": "No further tuning based on this final test. NC3 comparison remains outstanding."
+}

@@ -1,0 +1,31 @@
+{
+  "candidate_checkpoint_sha256": {
+    "oddlink_1701.pt": "cfeefd028e14d854c131f5b556b44255f018bb1f5d45903816d32987c47836fe",
+    "oddlink_1703.pt": "b30e801bf2ac3d849a1e989c17da63ac623c902b15ef7073ebb31d640486136f"
+  },
+  "comparison": "frozen F22 learned-link and frozen F21-P2 on same worlds wherever possible",
+  "degree": 7,
+  "evaluation": "H1/H4/H16/H90, max state error <=0.05, no state repair, no family ID at model inference",
+  "graphs": [
+    "ladder",
+    "triadbridge"
+  ],
+  "independent_families": [
+    "arctan_response",
+    "erf_response",
+    "cubic_response"
+  ],
+  "laws": "F21 held-out sign combinations",
+  "meta_ridge_init": -7.5,
+  "model": "F23 adaptive odd polynomial fitted generically from support; frozen F22 learned prior, 96 demonstrations",
+  "not_allowed": "Retune any model after seeing results",
+  "official_NC_gate": "Not comparable to historical NC3; transfer test cannot by itself promote NC4.",
+  "per_episode_fit": "generic ridge 3 linear + 3 nonlinear coefficients",
+  "per_family_episodes_per_seed": 16,
+  "seed_formula": "701234567 + seed*1747 + family_offset + episode*3907",
+  "seeds": [
+    60101,
+    60103
+  ],
+  "stage": "TWM ORION F23 independent transfer diagnostic, no baseline promotion"
+}

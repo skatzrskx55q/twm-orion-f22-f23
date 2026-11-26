@@ -1,0 +1,43 @@
+{
+  "kind": "development-only, NOT independent test",
+  "candidate_models": {
+    "ridge": {
+      "H1": 24,
+      "H4": 24,
+      "H16": 16,
+      "H90": 0,
+      "n": 24,
+      "mean_max90": 0.1959950476884842,
+      "mean_last": 0.15460187196731567,
+      "max90": 1.0
+    },
+    "hyper": {
+      "H1": 21,
+      "H4": 2,
+      "H16": 0,
+      "H90": 0,
+      "n": 24,
+      "mean_max90": 0.6203911304473877,
+      "mean_last": 0.5411865711212158,
+      "max90": 1.0
+    },
+    "warp": {
+      "H1": 24,
+      "H4": 24,
+      "H16": 24,
+      "H90": 24,
+      "n": 24,
+      "mean_max90": 0.00031449602101929486,
+      "mean_last": 0.0001529331784695387,
+      "max90": 0.0007883906364440918
+    }
+  },
+  "qualifications": {
+    "warp": "Uses preselected analytic inverse link close to teacher; not promoted",
+    "ridge": "Learned feature + ordinary ridge without nonlinear link",
+    "hyper": "Neural support encoder directly predicts response coefficients"
+  },
+  "first_seed": 1701,
+  "dev_seed": 8811,
+  "n": 24
+}

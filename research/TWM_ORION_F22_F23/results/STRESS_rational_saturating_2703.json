@@ -1,0 +1,193 @@
+{
+  "metrics": {
+    "H1_0.05": 16,
+    "H4_0.05": 16,
+    "H16_0.05": 15,
+    "H90_0.05": 5,
+    "H1_0.02": 16,
+    "H4_0.02": 16,
+    "H16_0.02": 7,
+    "H90_0.02": 0,
+    "n": 16,
+    "mean_maxerror90": 0.08500535786151886,
+    "max_error90": 0.3184899687767029
+  },
+  "records": [
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.0970621109008789,
+      "last_err": 0.0923466682434082
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.11696974188089371,
+      "last_err": 0.016014695167541504
+    },
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.05520617961883545,
+      "last_err": 0.0
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.0254238061606884,
+      "last_err": 0.005173355340957642
+    },
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.15675653517246246,
+      "last_err": 0.03276756405830383
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.050019025802612305,
+      "last_err": 0.049525707960128784
+    },
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.07689881324768066,
+      "last_err": 0.07689881324768066
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.0563589483499527,
+      "last_err": 0.004973411560058594
+    },
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.05134814977645874,
+      "last_err": 0.0
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.3184899687767029,
+      "last_err": 0.043059706687927246
+    },
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.07802186161279678,
+      "last_err": 0.07802186161279678
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.03308272361755371,
+      "last_err": 0.002814352512359619
+    },
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.04313628375530243,
+      "last_err": 0.0
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.11028550565242767,
+      "last_err": 0.01161155104637146
+    },
+    {
+      "graph": "ladder",
+      "theta": [
+        -1.100000023841858,
+        1.0,
+        0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.04870830476284027,
+      "last_err": 0.0
+    },
+    {
+      "graph": "triadbridge",
+      "theta": [
+        -1.100000023841858,
+        -1.0,
+        -0.949999988079071
+      ],
+      "kind": "rational_saturating",
+      "maxerr90": 0.04231775179505348,
+      "last_err": 0.006868243217468262
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Reference environment: Python 3.13.5, Linux x86_64 CPU.
+# Install PyTorch CPU separately as described in README if desired.
+torch==2.10.0
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+pytest==9.0.2
+matplotlib==3.10.8
+joblib>=1.5,<2

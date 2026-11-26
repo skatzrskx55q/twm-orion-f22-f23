@@ -1,0 +1,872 @@
+{
+  "adaptive": {
+    "n": 36,
+    "H1": 36,
+    "H4": 36,
+    "H16": 36,
+    "H90": 34,
+    "mean_max_error90": 0.017032913863658905,
+    "by_graph": {
+      "alternating_bipartite": {
+        "n": 12,
+        "H90": 10
+      },
+      "complete6": {
+        "n": 12,
+        "H90": 12
+      },
+      "wheel6": {
+        "n": 12,
+        "H90": 12
+      }
+    },
+    "by_family": {
+      "arctan_response": {
+        "n": 12,
+        "H90": 12
+      },
+      "cubic_response": {
+        "n": 12,
+        "H90": 10
+      },
+      "erf_response": {
+        "n": 12,
+        "H90": 12
+      }
+    },
+    "records": [
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.031186163425445557,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.0061538368463516235,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.022394627332687378,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.013053953647613525,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.00883367471396923,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.008567318320274353,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.008581995964050293,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.008315570652484894,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.012798607349395752,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.005259394645690918,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.035339951515197754,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.0109902024269104,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.03251244127750397,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.009582296013832092,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.025916218757629395,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.008280783891677856,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.00721663236618042,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.014818307012319565,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.008860528469085693,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.008442848920822144,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.015620231628417969,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.02250824123620987,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.053499966859817505,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.08880110085010529,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.022002756595611572,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.012002639472484589,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.017060505226254463,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.010857410728931427,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.00713735818862915,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.01355646550655365,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.00614863820374012,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.003093898296356201,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.01683453842997551,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.008454620838165283,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.020227134227752686,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.008274078369140625,
+        "H90": 1
+      }
+    ]
+  },
+  "F22_odd": {
+    "n": 36,
+    "H1": 36,
+    "H4": 36,
+    "H16": 33,
+    "H90": 14,
+    "mean_max_error90": 0.09949291497468948,
+    "by_graph": {
+      "alternating_bipartite": {
+        "n": 12,
+        "H90": 6
+      },
+      "complete6": {
+        "n": 12,
+        "H90": 5
+      },
+      "wheel6": {
+        "n": 12,
+        "H90": 3
+      }
+    },
+    "by_family": {
+      "arctan_response": {
+        "n": 12,
+        "H90": 0
+      },
+      "cubic_response": {
+        "n": 12,
+        "H90": 4
+      },
+      "erf_response": {
+        "n": 12,
+        "H90": 10
+      }
+    },
+    "records": [
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.09381288290023804,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.07118991017341614,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.07553932815790176,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.07567501068115234,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.015382496640086174,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.04258757829666138,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.013068675994873047,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.03021298721432686,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.14014583826065063,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.0285458043217659,
+        "H90": 1
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.06382691860198975,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 1.0,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.10023440420627594,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.06600747257471085,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.10523605346679688,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.07522021234035492,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.01443239115178585,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.0360599160194397,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.013782799243927002,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.019941432401537895,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.02652585506439209,
+        "H90": 1
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.0679185539484024,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.11631009727716446,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.03643393516540527,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.344818651676178,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.16588535904884338,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.16376549005508423,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.07479700446128845,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.07181417942047119,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.11825787276029587,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.009707033634185791,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.042022764682769775,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.05604216456413269,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.0432620644569397,
+        "H90": 1
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.10045555979013443,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.06282629072666168,
+        "H90": 0
+      }
+    ]
+  },
+  "F21_P2": {
+    "n": 36,
+    "H1": 30,
+    "H4": 0,
+    "H16": 0,
+    "H90": 0,
+    "mean_max_error90": 0.710759162902832,
+    "by_graph": {
+      "alternating_bipartite": {
+        "n": 12,
+        "H90": 0
+      },
+      "complete6": {
+        "n": 12,
+        "H90": 0
+      },
+      "wheel6": {
+        "n": 12,
+        "H90": 0
+      }
+    },
+    "by_family": {
+      "arctan_response": {
+        "n": 12,
+        "H90": 0
+      },
+      "cubic_response": {
+        "n": 12,
+        "H90": 0
+      },
+      "erf_response": {
+        "n": 12,
+        "H90": 0
+      }
+    },
+    "records": [
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.5612194538116455,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.5258581638336182,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.4913896322250366,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.49545761942863464,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.5688209533691406,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.6670450568199158,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.6908109188079834,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.7516770958900452,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.659471333026886,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.6429661512374878,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.7273896932601929,
+        "H90": 0
+      },
+      {
+        "graph": "complete6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.6686614155769348,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.6279602646827698,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.8296051025390625,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.744525134563446,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.7844199538230896,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.6847341060638428,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.8745571970939636,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.671379566192627,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.729387104511261,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.7763808369636536,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.8293752670288086,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.9772762656211853,
+        "H90": 0
+      },
+      {
+        "graph": "alternating_bipartite",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.7205215692520142,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.8483517169952393,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.8405759334564209,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "-++",
+        "max_error90": 0.6485030651092529,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "arctan_response",
+        "law": "---",
+        "max_error90": 0.6568984389305115,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.9190084338188171,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.7667746543884277,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "-++",
+        "max_error90": 0.5895975828170776,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "erf_response",
+        "law": "---",
+        "max_error90": 0.658417284488678,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.8630763292312622,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.6099991798400879,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "-++",
+        "max_error90": 0.7298020124435425,
+        "H90": 0
+      },
+      {
+        "graph": "wheel6",
+        "family": "cubic_response",
+        "law": "---",
+        "max_error90": 0.7554359436035156,
+        "H90": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "project": "TWM ORION",
+  "stage": "F22-F23",
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "numpy": "2.3.5",
+  "upstream_F21_sha256": "850f0a59b0b49eaf5dd7f4237a740dadf6c756078f04df0616fb7ba1010aec95",
+  "f22_frozen_source_sha256": "09f3e6957fa0661e3786f75e272c139818cf6fa6108d3333e5b4422e2ec16ffa",
+  "f22_protocol_sha256": "5776e338b67a77c60e075f416c0a7a385ab010ca1dca2ccbd285d747645381e0",
+  "f23_transfer_protocol_sha256": "699b2c81aa5437c98b7039492667d2b99e2215f87f5cc4c49dda2d4eab3e5602",
+  "f23_structural_protocol_sha256": "3d7afa1995f170222f717199333b4333642fd43421d145610b09a150b51ce848",
+  "f22_checkpoint_sha256": {
+    "oddlink_1701.pt": "cfeefd028e14d854c131f5b556b44255f018bb1f5d45903816d32987c47836fe",
+    "oddlink_1703.pt": "b30e801bf2ac3d849a1e989c17da63ac623c902b15ef7073ebb31d640486136f"
+  },
+  "finished_exam_before_current_package": true,
+  "clean_reproduction_status": "PASS, every EXAM/rollout/transfer/structural saved count independently recomputed",
+  "clean_execution_seconds": 14.57,
+  "clean_test_stdout_sha256": "3c2809b39a123fcb063dc3ab212560e17ef140332c389ed5ba03beef683b2d87",
+  "clean_test_stderr_note": "Nonfatal installed spreadsheet warmup warning emitted during Python startup, unrelated to TWM."
+}

@@ -1,0 +1,83 @@
+{
+  "developer_training": {
+    "dev_worlds_per_seed": 144,
+    "graphs_dev": [
+      "ring",
+      "chain",
+      "hub"
+    ],
+    "graphs_train": [
+      "ring",
+      "chain",
+      "hub"
+    ],
+    "iterations": [
+      "fixed_linear_ridge",
+      "hypernetwork",
+      "teacher-matched-link-rejected-as-risky",
+      "learned_odd_link"
+    ],
+    "laws": "F21 TRAIN_LAWS for training, F21 DEV_LAWS for checkpoint selection only",
+    "optimizer": "AdamW, 1800 steps, batch 64, LR 0.002, 4-step closed-loop unroll, select lowest dev 4-step loss",
+    "seeds": [
+      1701,
+      1703
+    ],
+    "train_worlds_per_seed": 900
+  },
+  "honesty_constraints": [
+    "Learned monotone link can still bias toward original tanh family; stress transfer required.",
+    "F21 benchmark different from historical NC3; no claim of NC4 from this alone.",
+    "No test-time teacher correction; generic feasibility projection recorded and not counted as success."
+  ],
+  "parent": "F21 full zip, frozen",
+  "project": "TWM ORION",
+  "promotion_requirements": {
+    "official_NC_baseline": "Additionally reproduce and surpass NC3 on its historical full requirements/benchmark, including categorical, structural and numerical outcomes. Not satisfied by narrow F21 world alone.",
+    "research_reference": "Both seeds H90_0.05 OOD > frozen F21 P2, history-swap causes accuracy loss, no oracle/teacher in forward, no test retuning."
+  },
+  "protocol_status": "frozen_before_new_holdout",
+  "research_hypothesis": "Learned monotone response representation plus episodic generic least-squares identification can improve causal closed-loop dynamics.",
+  "sealed_holdout": {
+    "compare": [
+      "learned_odd_link",
+      "F21_P2_observed_context",
+      "linear_ridge",
+      "history_swap"
+    ],
+    "do_not_tune_after_unlock": true,
+    "exam_worlds_per_seed": 320,
+    "graphs": [
+      "ladder",
+      "triadbridge"
+    ],
+    "horizons": [
+      1,
+      4,
+      16,
+      90
+    ],
+    "laws": "F21 EXAM_LAWS (+dev+train stratified for rollouts)",
+    "seeds": [
+      2701,
+      2703
+    ],
+    "tolerances": [
+      0.02,
+      0.05
+    ],
+    "trajectory_episodes_per_seed": 32,
+    "trajectory_seed_base": 912345671,
+    "world_seed_base": 582012345
+  },
+  "stage": "F22_research_no_promotion_without_historical_comparability",
+  "stress_test": {
+    "evaluate_without_retraining": true,
+    "horizon": 90,
+    "new_response_families": [
+      "rational_saturating",
+      "sine_saturating"
+    ],
+    "per_family_episodes": 16
+  }
+}

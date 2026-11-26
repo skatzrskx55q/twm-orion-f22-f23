@@ -1,0 +1,281 @@
+{
+  "adaptive_odd": {
+    "metrics": {
+      "H1_0.05": 16,
+      "H4_0.05": 16,
+      "H16_0.05": 16,
+      "H90_0.05": 15,
+      "mean_max_error_90": 0.02554599568247795,
+      "max_error_90": 0.06388015300035477,
+      "n": 16
+    },
+    "records": [
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.029265105724334717
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.015468817204236984
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.02653801068663597
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.016130685806274414
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.03617560863494873
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.02098971977829933
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.04458683729171753
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.01568084955215454
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.028215885162353516
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.0180060975253582
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.06388015300035477
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.016267836093902588
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.017053306102752686
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.007618963718414307
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.030085615813732147
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.02277243137359619
+      }
+    ]
+  },
+  "F22_odd": {
+    "metrics": {
+      "H1_0.05": 16,
+      "H4_0.05": 16,
+      "H16_0.05": 10,
+      "H90_0.05": 0,
+      "mean_max_error_90": 0.3529250919818878,
+      "max_error_90": 1.0,
+      "n": 16
+    },
+    "records": [
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.09471763670444489
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.13091109693050385
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.10466606914997101
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.08076120167970657
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.46004992723464966
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.06503080576658249
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 1.0
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 1.0
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.08713638782501221
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.18714773654937744
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 1.0
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.13253211975097656
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.08475054055452347
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 1.0
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.1193426251411438
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.09975534677505493
+      }
+    ]
+  },
+  "F21_P2": {
+    "metrics": {
+      "H1_0.05": 13,
+      "H4_0.05": 0,
+      "H16_0.05": 0,
+      "H90_0.05": 0,
+      "mean_max_error_90": 0.749469518661499,
+      "max_error_90": 0.9872920513153076,
+      "n": 16
+    },
+    "records": [
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.7300056219100952
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.6924636960029602
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.667539119720459
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.7544236183166504
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.8530123829841614
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.775303065776825
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.9872920513153076
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.7800561189651489
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.6730247139930725
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.7989040017127991
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.692665696144104
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.7351052761077881
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.8673059344291687
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.62984699010849
+      },
+      {
+        "graph": "ladder",
+        "law": "-++",
+        "max_error_90": 0.6566835045814514
+      },
+      {
+        "graph": "triadbridge",
+        "law": "---",
+        "max_error_90": 0.6978806853294373
+      }
+    ]
+  }
+}

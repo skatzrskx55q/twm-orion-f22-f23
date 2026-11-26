@@ -1,0 +1,99 @@
+{
+  "project": "TWM ORION",
+  "stage": "F22-F23 multi-iteration research cycle",
+  "date": "2026-11-05",
+  "promotion_status": {
+    "continuous_world_reference": "ACCEPTED_AS_TASK_SPECIFIC_RESEARCH_REFERENCE",
+    "official_overall_NC_baseline": "TWM ORION NC3, UNCHANGED",
+    "TWM_ORION_NC4": "NOT_PROMOTED: no historically comparable evaluation of categorical/discrete & graph-structural laws"
+  },
+  "f22_original_family": {
+    "exam_n": 640,
+    "candidate_one_step_exact_0.02": 640,
+    "f21_p2_one_step_exact_0.02": 75,
+    "H90_0.05": 63,
+    "H90_0.02": 58,
+    "H90_total": 64,
+    "f21_p2_H90_0.05": 0,
+    "observed_support_swap_hurts": 477,
+    "observed_support_swap_n": 640,
+    "gate": "SUCCESS_ON_NARROW_F21_TASK_ONLY"
+  },
+  "f23_new_response_families": {
+    "arctan_response": {
+      "n": 32,
+      "f23_H90_0.05": 30,
+      "f22_H90_0.05": 0,
+      "f21_H90_0.05": 0
+    },
+    "erf_response": {
+      "n": 32,
+      "f23_H90_0.05": 30,
+      "f22_H90_0.05": 21,
+      "f21_H90_0.05": 0
+    },
+    "cubic_response": {
+      "n": 32,
+      "f23_H90_0.05": 30,
+      "f22_H90_0.05": 12,
+      "f21_H90_0.05": 0
+    },
+    "TOTAL": {
+      "n": 96,
+      "f23_H90_0.05": 90,
+      "f22_H90_0.05": 33,
+      "f21_H90_0.05": 0
+    }
+  },
+  "f23_new_graph_structures": {
+    "alternating_bipartite": {
+      "n": 24,
+      "f23_H90_0.05": 22
+    },
+    "complete6": {
+      "n": 24,
+      "f23_H90_0.05": 24
+    },
+    "wheel6": {
+      "n": 24,
+      "f23_H90_0.05": 23
+    },
+    "TOTAL": {
+      "n": 72,
+      "f23_H90_0.05": 69,
+      "f22_H90_0.05": 32,
+      "f21_H90_0.05": 0
+    }
+  },
+  "confidence_intervals_descriptive": {
+    "f22_original_H90_95pct_wilson": [
+      0.9166589840012517,
+      0.9972364580765835
+    ],
+    "f23_family_H90_95pct_wilson": [
+      0.8702905349373471,
+      0.9710433256885098
+    ],
+    "f23_structure_H90_95pct_wilson": [
+      0.8845072325889283,
+      0.9857291925327871
+    ],
+    "f23_minus_f22_family_95pct_paired_bootstrap_pp": [
+      50.0,
+      68.75
+    ],
+    "f23_minus_f22_structure_95pct_paired_bootstrap_pp": [
+      38.888889,
+      63.888889
+    ]
+  },
+  "limitations": [
+    "All new tests are continuous resource and weighted-relation transitions on six fixed nodes.",
+    "Core teacher causal mixing direction, effect amplitudes and single-index smoothness are shared across response-family transfer tests.",
+    "F23 consumes 96 transition demonstrations vs 6 for F22/F21; prior baselines evaluated on same 96 but not retrained for that budget.",
+    "No categorical property creation, node births, edge creation/removal or discrete conflicting-effect transition benchmark.",
+    "No comparable historical NC3 H90, therefore no official NC4.",
+    "Two training seeds; episode-level intervals do not reflect training-init uncertainty fully.",
+    "First-seed training initialization not recorded fully; saved checkpoints and all tests reproducible."
+  ]
+}

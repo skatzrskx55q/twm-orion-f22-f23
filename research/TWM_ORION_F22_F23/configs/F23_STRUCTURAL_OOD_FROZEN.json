@@ -1,0 +1,29 @@
+{
+  "episodes_per_seed": 36,
+  "frozen_F23_models": [
+    "adaptive_1701.pt",
+    "adaptive_1703.pt"
+  ],
+  "graph_families": [
+    "complete6",
+    "alternating_bipartite",
+    "wheel6"
+  ],
+  "horizon": 90,
+  "no_training_or_tuning": true,
+  "observations": 96,
+  "repetitions_per_combination": 4,
+  "response_families": [
+    "arctan_response",
+    "erf_response",
+    "cubic_response"
+  ],
+  "scope": "six fixed nodes, numerical properties and weighted relations only; no new discrete edges",
+  "seed_formula": "331888808 + seed*3311 + scenario_index*9113",
+  "seeds": [
+    77101,
+    77103
+  ],
+  "stage": "TWM ORION F23 supplementary structural OOD diagnostic",
+  "tolerance": 0.05
+}
